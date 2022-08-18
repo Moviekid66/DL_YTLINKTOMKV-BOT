@@ -1,13 +1,3 @@
-"""
-
-███╗░░░███╗░█████╗░░██████╗████████╗███████╗██████╗░███╗░░░███╗██╗███╗░░██╗██████╗░░░░░░░██╗░░░██╗██████╗░████████╗██╗░░██╗
-████╗░████║██╔══██╗██╔════╝╚══██╔══╝██╔════╝██╔══██╗████╗░████║██║████╗░██║██╔══██╗░░░░░░██║░░░██║██╔══██╗╚══██╔══╝╚██╗██╔╝
-██╔████╔██║███████║╚█████╗░░░░██║░░░█████╗░░██████╔╝██╔████╔██║██║██╔██╗██║██║░░██║█████╗╚██╗░██╔╝██████╔╝░░░██║░░░░╚███╔╝░
-██║╚██╔╝██║██╔══██║░╚═══██╗░░░██║░░░██╔══╝░░██╔══██╗██║╚██╔╝██║██║██║╚████║██║░░██║╚════╝░╚████╔╝░██╔══██╗░░░██║░░░░██╔██╗░
-██║░╚═╝░██║██║░░██║██████╔╝░░░██║░░░███████╗██║░░██║██║░╚═╝░██║██║██║░╚███║██████╔╝░░░░░░░░╚██╔╝░░██║░░██║░░░██║░░░██╔╝╚██╗
-╚═╝░░░░░╚═╝╚═╝░░╚═╝╚═════╝░░░░╚═╝░░░╚══════╝╚═╝░░╚═╝╚═╝░░░░░╚═╝╚═╝╚═╝░░╚══╝╚═════╝░░░░░░░░░░╚═╝░░░╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░╚═╝
-
-"""
 
 from pyrogram import Client, Filters, StopPropagation, InlineKeyboardButton, InlineKeyboardMarkup
 
@@ -20,8 +10,7 @@ async def love(client, message):
         [InlineKeyboardButton("⭕ WebNetwork ⭕", url="https://t.me/dldupdates")],
         [InlineKeyboardButton("⭕ BotsList ⭕", url="https://t.me/dldupdates")],
         [InlineKeyboardButton("⭕ Leech & Mirror ⭕", url="https://t.me/dldupdates")],
-        [InlineKeyboardButton("⭕ Movies & Demand ⭕", url="https://t.me/dldupdates")]
-    ])
+        [InlineKeyboardButton("⭕ Movies & Demand ⭕", url="https://t.me/dldupdates")],
     youtube_ex = f"""
 **Some example youtube channels and songs if you don't know then what u want**
 - type /github if I helped u in AnyWay. 
